@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="TextView"
+            android:text="@string/lbl_calculator"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="187dp"
             tools:layout_editor_absoluteY="26dp" />
@@ -32,7 +32,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Angka 1"
+            android:text=""
+            android:hint="@string/number_one"
             tools:layout_editor_absoluteX="55dp"
             tools:layout_editor_absoluteY="40dp" />
 
@@ -42,7 +43,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Angka 2"
+            android:text=""
+            android:hint="@string/number_two"
             tools:layout_editor_absoluteX="67dp"
             tools:layout_editor_absoluteY="98dp" />
 
@@ -86,7 +88,7 @@
             android:background="@color/colorPrimary"
             android:textColor="@color/colorWhite"
             android:layout_margin="6dp"
-            android:text="X" />
+            android:text="x" />
 
         <Button
             android:id="@+id/button8"
@@ -113,7 +115,7 @@
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BERSIHKAN"
+            android:text="@string/btn_reset"
             tools:layout_editor_absoluteX="22dp"
             tools:layout_editor_absoluteY="310dp" />
 
@@ -123,7 +125,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50px"
             android:gravity="center"
-            android:text="HASIL"
+            android:text="@string/lbl_result"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="40dp"
             tools:layout_editor_absoluteY="392dp" />

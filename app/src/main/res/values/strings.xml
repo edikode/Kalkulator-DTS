@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Kalkulator</string>
+    <string name="lbl_calculator">MASUKKAN DUA ANGKA</string>
+    <string name="number_one">Masukkan Angka Pertama</string>
+    <string name="number_two">Masukkan Angka Kedua</string>
+    <string name="btn_reset">BERSIHKAN</string>
+    <string name="lbl_result">HASIL</string>
+
 </resources>
