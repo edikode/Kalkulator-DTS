@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Kalkulator</string>
+    <string name="app_name">Aplikasi Kalkulator</string>
     <string name="lbl_calculator">MASUKKAN DUA ANGKA</string>
     <string name="number_one">Masukkan Angka Pertama</string>
     <string name="number_two">Masukkan Angka Kedua</string>
